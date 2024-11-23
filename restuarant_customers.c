@@ -35,4 +35,5 @@ int main(void) {
         }
     }
     printf("%d", maxPeople);
+    return 0;
 }
