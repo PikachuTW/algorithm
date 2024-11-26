@@ -33,4 +33,5 @@ int main(void) {
         }
     }
     printf("%d", rooms);
+    return 0;
 }
