@@ -10,6 +10,8 @@
 
 Leetcode用C語言來寫（也都是first try）
 
+目前正在寫 Linked List，因為這是計概期末可能蠻注重的一個資料結構，得把指標玩熟才行
+
 ## My Data Structure in C
 
-我計劃用C刻出一些資料結構
+我計劃用 C 刻出一些資料結構
