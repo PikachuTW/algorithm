@@ -6,8 +6,8 @@
  * };
  */
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
-    struct ListNode* beforehead = malloc(sizeof(struct ListNode));
-    struct ListNode* ptr = beforehead;
+    struct ListNode beforehead;
+    struct ListNode* ptr = &beforehead;
     while (list1 != NULL && list2 != NULL) {
         if (list1->val > list2->val) {
             ptr->next = list2;
@@ -19,5 +19,5 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
         ptr = ptr->next;
     }
     ptr->next = list1 == NULL ? list2 : list1;
-    return beforehead->next;
+    return beforehead.next;
 }
