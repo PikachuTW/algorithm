@@ -11,7 +11,9 @@ struct ListNode* removeElements(struct ListNode* head, int val) {
         if ((*indirect)->val != val) {
             indirect = &((*indirect)->next);
         } else {
+            struct ListNode* temp = *indirect;
             *indirect = (*indirect)->next;
+            free(temp);
         }
     }
     return head;
