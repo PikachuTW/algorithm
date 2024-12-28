@@ -1,14 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define int long long
-#define endl '\n'
-
-signed main(void) {
+int main(void) {
 #ifdef ONLINE_JUDGE
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    cout.tie(nullptr);
 #endif
     int n, a, b;
     cin >> n;
