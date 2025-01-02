@@ -4,3 +4,4 @@
 *.notcomplete.c
 *.notcomplete
 .vscode
+*.txt
